@@ -90,4 +90,3 @@ async function getShortLinks() {
 })();
 
 
-cron.schedule('0 9 * * *', getShortLinks);
