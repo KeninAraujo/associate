@@ -3,7 +3,6 @@
     "axios": "^1.6.5",
     "dotenv": "^16.3.2",
     "node-cron": "^3.0.3",
-    "puppeteer": "^21.7.0",
-    "railway": "^2.0.17"
+    "puppeteer": "^21.7.0"
   }
 }
