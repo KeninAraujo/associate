@@ -1,6 +1,0 @@
-build:
-  env: production
-jobs:
-  - name: cron
-    script: npm start
-    cron: '0 9 * * *'
