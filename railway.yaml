@@ -1,6 +1,5 @@
 - name: Conceder permissões de execução ao script
-  run: chmod +x bot.js
-
+  run: chmod +x bot.j
 build:
   env: production
 jobs:
