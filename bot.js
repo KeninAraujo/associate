@@ -51,7 +51,7 @@ async function getShortLinks() {
 
         for (let i = 0; i < randomLinks.length; i++) {
             await page.goto(randomLinks[i], { waitUntil: 'domcontentloaded', timeout: 5000 });
-            await page.waitForSelector('#amzn-ss-text-link');
+            await page.waitForSelector('#amzn-ss-text-link', { timeout: 60000 });
             await page.click('#amzn-ss-text-link');
 
             await page.waitForSelector('#amzn-ss-full-link-radio-button > label > input[type=radio]', { visible: true });
